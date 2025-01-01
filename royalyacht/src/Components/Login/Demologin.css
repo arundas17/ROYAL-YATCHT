@@ -1,0 +1,45 @@
+.demologin-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.demologin-head{
+    margin-bottom: 15px;
+    font-family:  sans-serif;
+    font-size: 28px;
+}
+.login-userentry{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.login-userentry input{
+    padding: 10px 30px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+.login-userentry input:last-child{
+    margin-bottom: 40px;
+}
+
+.demologin-user-interaction{
+    display: flex;
+    gap: 10px;
+}
+.demologin-user-interaction button{
+    min-width: 150px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    outline: none;
+}
+.submit{
+    background-color: #baa36c;
+    color:#fff;
+}
+.submit:hover{
+    background-color: #c40b27;
+   }
